@@ -1,0 +1,60 @@
+name: resort_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  country_code_picker: ^3.0.0
+
+  # 🔹 For Call, WhatsApp, Location
+  url_launcher: ^6.2.5
+
+  # 🔹 WhatsApp Icon Support
+  font_awesome_flutter: ^10.7.0
+
+  # 🔹 Date Formatting (Calendar)
+  intl: ^0.18.1
+
+  # 🚀 Fast Network Image Loading & Caching
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/splash.png
+    - assets/images/logo.png
+    - assets/images/wel.jpg
+    - assets/images/onboard 1.jpg
+    - assets/images/onboard 2.png
+    - assets/images/onboard 3.jpg
+    - assets/images/login.jpg
+    - assets/images/bottom_design.jpg
+    - assets/images/google.png
+    - assets/images/rooms.jpg
+    - assets/images/compare.jpg
+    - assets/images/room&villa.jpg
+    - assets/images/act1.jpg
+    - assets/images/act2.jpg
+    - assets/images/dine.jpg
+    - assets/images/dine2.jpg
+    - assets/images/wed.jpg
+    - assets/images/boo.jpg
+    - assets/images/off.jpg
+    - assets/images/staff.jpg
+    - assets/images/pay.jpg
+    - assets/images/service.jpg
